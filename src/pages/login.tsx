@@ -10,7 +10,6 @@ return (
       </View>
       <View className='w-8/12 mt-10'>
         <Text className='text-text-color text-2xl'>Username</Text>
-        
       </View>
     </ImageBackground>
   )
