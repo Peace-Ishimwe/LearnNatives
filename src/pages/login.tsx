@@ -9,7 +9,7 @@ return (
         <Text className='text-text-color text-center text-2xl'>welcome back we missed you</Text>
       </View>
       <View className='w-8/12 mt-10'>
-        <Text className='text-text-color text-2xl'>Username </Text>
+        <Text className='text-text-color text-2xl'>Username</Text>
       </View>
     </ImageBackground>
   )
