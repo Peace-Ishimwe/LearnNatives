@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text , TextInput } from 'react-native'
+import { View, Text , TextInput , StyleSheet } from 'react-native'
 
 interface HeaderProps {
     mainTitle: String;
@@ -30,7 +30,7 @@ export const InputLabelComponent = (props: InputLabelComponentProps) => {
 export const InputElement = () => {
     return (
         <>
-            <TextInput></TextInput>
+            <TextInput className='text-2xl' placeholder='Username'/>
         </>
     )
 }
