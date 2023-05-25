@@ -1,18 +1,21 @@
 import React from 'react'
-import { View , Text , Image } from 'react-native'
+import { View , Text , Image  , StyleSheet , ImageBackground} from 'react-native'
 
 const Login = () => {
 return (
-    <View className="flex justify-center h-[100vh] items-center bg-gray-900">
-      <View className='w-8/12'>
+    <ImageBackground className="flex justify-center h-[100vh] items-center" source={require('../../assets/Login_Screen.png')} style={styles.background}>
+      <View className='w-9/12'>
         <Text className='text-center text-7xl font-bold text-white'>Welcome Back!</Text>
         <Text className='text-text-color text-center text-2xl'>welcome back we missed you</Text>
       </View>
-      <View className='border border-white w-11/12'>
+      <View className='w-8/12 mt-3'>
         <Text className='text-text-color'>Username</Text>
       </View>
-    </View>
+    </ImageBackground>
   )
 }
 
 export default Login
+
+const styles = StyleSheet.create({
+});
