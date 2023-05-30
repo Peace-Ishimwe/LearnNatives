@@ -30,7 +30,7 @@ export const InputLabelComponent = (props: InputLabelComponentProps) => {
 export const InputElement = () => {
     return (
         <>
-            <TextInput className='text-2xl' placeholderTextColor={''} placeholder='Username' />
+            <TextInput className='text-2xl' placeholderTextColor={'#A4A4A4'} placeholder='Username' />
         </>
     )
 }
